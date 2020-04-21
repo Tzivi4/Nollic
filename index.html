@@ -1,3 +1,4 @@
+<!--
 <?php
 
     session_start();
@@ -20,6 +21,7 @@
     }
 
 ?>
+-->
 
 <!DOCTYPE html>
 <html lang="es">
@@ -32,17 +34,15 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="icon" 
-      type="image/png" 
-      href="assets/img/favicon.png">
-      <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 
 <body>
     <div class="header">
         <div class="logo">
-            <span class="logoImg"><img width="50px" height="50px"
-                    src="Nollic Recursos Gráficos/Logo Nollic sin texto negro PNG.png" alt=""></span>
+            <span class="logoImg"><img width="50px" height="50px" src="assets/img/Logo Nollic sin texto negro PNG.png"
+                    alt=""></span>
             <h1 class="logoTitle">NOLLIC</h1>
         </div>
         <div class="rightMenu">
@@ -51,17 +51,21 @@
             </div>
 
             <div class="menu">
+                <!--
                 <?php if(!empty($user)): ?>
 
                 <p> <?= $user['email'] ?> </p>
-                <a href="logout.php"><span class="listSpan"> Salir</span></a>
+                -->
+                <a href="logout.html"><span class="listSpan"> Salir</span></a>
+                <!--
 
                 <?php else: ?>
 
-                <a href="login.php"><span class="listSpan"> Login</span></a>
-                <a href="signup.php"><span class="listSpan"> Signup</span></a>
+                <a href="login.html"><span class="listSpan"> Login</span></a>
+                <a href="signup.html"><span class="listSpan"> Signup</span></a>
 
                 <?php endif; ?>
+                -->
                 <a href="categorias.html"><span class="listSpan"> Categorias</span></a>
             </div>
         </div>
@@ -84,7 +88,8 @@
                 <h2>Déjanos compartir contigo nuestros artículos...</h2>
                 <h1>Únete a Nollic!</h1>
                 <div class="contImg">
-                    <a title="Instagram" href="https://www.instagram.com/nollic.live/"><img src="assets/img/insta.png" width="60px" height="60px" alt=""></a>
+                    <a title="Instagram" href="https://www.instagram.com/nollic.live/"><img src="assets/img/insta.png"
+                            width="60px" height="60px" alt=""></a>
                     <a title="Twitter" href=""><img src="assets/img/tw.png" width="60px" height="60px" alt=""></a>
                     <a title="Facebook" href=""><img src="assets/img/face.png" width="60px" height="60px" alt=""></a>
                 </div>
@@ -163,14 +168,15 @@
             </div>
         </div>
 
-        
+
 
         <div class="slider">
             <div id="right"><i class="fas fa-chevron-right"></i></div>
             <ul class="ulSlider">
                 <li><a title="Gatos" href="categorias.html"><img src="assets/img/slider/g1.jpeg" alt=""></a></li>
 
-                <li><a title="Comida" href="categorias_comida.html"><img src="assets/img/slider/c1.jpeg" alt=""></a></li>
+                <li><a title="Comida" href="categorias_comida.html"><img src="assets/img/slider/c1.jpeg" alt=""></a>
+                </li>
 
                 <li><a title="Perros" href="perros.html"><img src="assets/img/slider/pr1.jpeg" alt=".jpg"></a></li>
 
@@ -183,13 +189,13 @@
         <div class="preFooter">
             <li><a class="contactText" href="contact.html">Contáctanos</a></li>
             <ul class="redes">
-                <li id="in"><a title="Instagram" href="https://www.instagram.com/nollic.live/"><img src="assets/img/insta.png" height="50px"
-                            width="50px" alt=""></a></li>
-                            <li id="tw"><a title="Twitter" href="https://twitter.com/Tzivi4"><img src="assets/img/tw.png" height="50px" width="50px"
-                                alt=""></a></li>
-                <li id="fa"><a title="Facebook" href="https://www.facebook.com/Gevi.Designs/"><img src="assets/img/face.png" height="50px"
-                            width="50px" alt=""></a></li>
-                
+                <li id="in"><a title="Instagram" href="https://www.instagram.com/nollic.live/"><img
+                            src="assets/img/insta.png" height="50px" width="50px" alt=""></a></li>
+                <li id="tw"><a title="Twitter" href="https://twitter.com/Tzivi4"><img src="assets/img/tw.png"
+                            height="50px" width="50px" alt=""></a></li>
+                <li id="fa"><a title="Facebook" href="https://www.facebook.com/Gevi.Designs/"><img
+                            src="assets/img/face.png" height="50px" width="50px" alt=""></a></li>
+
             </ul>
         </div>
         <div class="phoneNav">
