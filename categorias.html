@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nollic</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylesCategorias.css">
+    <link rel="icon" 
+      type="image/png" 
+      href="assets/img/favicon.png">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <span class="logoImg"><img width="50px" height="50px"
+                    src="Nollic Recursos Gráficos/Logo Nollic sin texto negro PNG.png" alt=""></span>
+            <h1 class="logoTitle">NOLLIC</h1>
+        </div>
+        <div class="rightMenu">
+            <div class="themeChanger">
+                <a class="aChanger"><i id="light" class="far fa-moon moon switch"></i></a>
+            </div>
+
+            <div class="menu">
+                <a href="index.php"><span class="listSpan"> Inicio</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1 class="titleH1">Categorías</h1>
+
+        <div id="categoryWrap" class="categories">
+            <a href="#" category="all" class="ai futbol item"><span class="itemCategory"> Todo</span></a>
+            <a href="#" category="futbol" class="ai futbol item"><span class="itemCategory"> Futbol</span></a>
+            <a href="#" category="comida" class="ai comida item"><span class="itemCategory"> Comida</span></a>
+            <a href="#" category="entretenimiento" class="ai entretenimiento item"><span class="itemCategory">
+                    Entretenimiento</span></a>
+            <a href="#" category="perros" class="ai perros item"><span class="itemCategory"> Perros</span></a>
+            <a href="#" category="gatos" class="ai gatos item"><span class="itemCategory"> Gatos</span></a>
+            <a href="#" category="style" class="ai outfits item"><span class="itemCategory"> Outfits</span></a>
+            <a href="#" category="tech" class="ai tecnologia item"><span class="itemCategory"> Tecnología</span></a>
+        </div>
+
+        <div class="arts">
+
+            <div class="main">
+
+                <a class="articulo" category="gatos" id="aa1" title="6 Hábitos de los gatos que debes conocer"
+                    href="gatonoseque">
+
+                    <div class="a1 a1">
+                        <h1>6 hábitos de los gatos que debes conocer</h1>
+                        <h2>Gatos</h2>
+                    </div>
+                </a>
+
+                <a class="articulo" category="perros" id="aa2" title="15 Razas de perros" href="">
+                    <div class="a1 a2">
+                        <h1>15 Razas de perros</h1>
+                        <h2>Perros</h2>
+                    </div>
+                </a>
+
+                <a class="articulo" category="tech" id="aa3" title="5 Trucos para Whatsapp" href="">
+                    <div class="a1 a3">
+                        <h1>5 Trucos para Whatsapp</h1>
+                        <h2>Tecnología</h2>
+                    </div>
+                </a>
+
+                <a class="articulo" category="style" id="aa4" href="">
+                    <div class="a1 a4">
+                        <h1>10 Cortes de pelo que estarán de moda este 2020</h1>
+                        <h2>Style</h2>
+                    </div>
+                </a>
+
+                <a class="articulo" category="futbol" id="aa5" title="Barcelona" href="">
+                    <div class="a1 a5">
+                        <h1>Barcelona</h1>
+                        <h2>Fútbol</h2>
+                    </div>
+                </a>
+
+                <a class="articulo" category="tech" id="aa6" title="4 Tips para Telegram" href="">
+                    <div class="a1 a6">
+                        <h1>4 Tips para Telegram</h1>
+                        <h2>Tecnología</h2>
+                    </div>
+                </a>
+
+                <a class="articulo" category="comida" id="aa7" title="Barcelona" href="">
+                    <div class="a1 a7">
+                        <h1>Tips para conseguir una pizza de restaurant</h1>
+                        <h2>Comida</h2>
+                    </div>
+                </a>
+                <a class="articulo" category="entretenimiento" id="aa8" title="Barcelona" href="">
+                    <div class="a1 a8">
+                        <h1>Razones por la que el Joker 2019 es la mejor película</h1>
+                        <h2>Entretenimiento</h2>
+                    </div>
+                </a>
+
+                <a class="articulo" category="entretenimiento" id="aa9" title="Barcelona" href="">
+                    <div class="a1 a9">
+                        <h1>Que hacer con los chicos en la cuarentena</h1>
+                        <h2>Entretenimiento</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="preFooter">
+            <li><a class="contactText" href="contact.html">Contactanos</a></li>
+            <ul class="redes">
+                <li id="in"><a href="https://www.instagram.com/gevi.digital/"><img src="assets/img/insta.png" height="50px"
+                            width="50px" alt=""></a></li>
+                <li id="fa"><a href="https://www.facebook.com/Gevi.Designs/"><img src="assets/img/face.png" height="50px"
+                            width="50px" alt=""></a></li>
+                <li id="tw"><a href="https://twitter.com/Tzivi4"><img src="assets/img/tw.png" height="50px" width="50px"
+                            alt=""></a></li>
+            </ul>
+        </div>
+        <div class="phoneNav">
+
+            <a onclick="saveState()" href="home.html" id="home"><i class="fas fa-home"></i></a>
+            <a onclick="saveState()" href="index.html" id="hot"><i class="fas fa-fire"></i></a>
+            <a onclick="saveState()" href="categorias.html" id="catBook"><i class="fas fa-book"></i></a>
+
+        </div>
+        <div class="contFooter">
+            <a class="footerText">CopyRight 2019-2020 Nollic | All Rights Reserved</a>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/542a0b5b09.js" crossorigin="anonymous"></script>
+    <script src="assets/JavaScript/categorias.js"></script>
+</body>
+
+</html>
